@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "rescript": "^11.1.4",
+    "linter": "file:./linter"
+  },
+  "scripts": {
+    "lint": "linter"
+  }
+}

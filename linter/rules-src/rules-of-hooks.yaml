@@ -1,0 +1,7 @@
+id: rules-of-hooks
+language: rescript
+rule:
+  kind: value_identifier
+  inside:
+    kind: function
+    pattern: useMemo

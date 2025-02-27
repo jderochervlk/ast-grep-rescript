@@ -1,0 +1,9 @@
+id: no-console
+language: rescript
+severity: warning
+message: Unexpected console statement.
+note: |
+  Remove the console statement.
+rule:
+  kind: module_identifier
+  regex: Console

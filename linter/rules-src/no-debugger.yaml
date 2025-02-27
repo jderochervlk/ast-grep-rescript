@@ -1,0 +1,9 @@
+id: no-debugger
+language: rescript
+severity: error
+message: Unexpected debugger statement.
+note: |
+  Remove the debugger statement.
+rule:
+  kind: expression_statement
+  regex: \%debugger

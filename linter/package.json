@@ -1,0 +1,12 @@
+{
+    "name": "linter",
+    "type": "module",
+    "bin": {
+        "init": "./init.js",
+        "lint": "./lint.sh"
+    },
+    "dependencies": {
+        "ast-grep": "^0.1.0",
+        "yaml": "^2.7.0"
+    }
+}

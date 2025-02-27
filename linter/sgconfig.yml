@@ -1,0 +1,6 @@
+# sgconfig.yml
+ruleDirs: ["./rules"]
+customLanguages:
+  rescript:
+      libraryPath: rescript.so  # path to dynamic library
+      extensions: [res, resi]   # file extensions for this language
