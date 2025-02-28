@@ -1,5 +1,7 @@
 export default {
+    "include": ["src", "bindings"],
+    "exclude": [],
     "rules": {
-        "no-console": "off"
+        "no-console": "error"
     }
 }

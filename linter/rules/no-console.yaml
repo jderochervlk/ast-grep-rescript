@@ -1,6 +1,6 @@
 id: no-console
 language: rescript
-severity: off
+severity: error
 message: Unexpected console statement.
 note: |
   Remove the console statement.

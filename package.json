@@ -4,6 +4,6 @@
     "linter": "file:./linter"
   },
   "scripts": {
-    "lint": "linter"
+    "reslint": "lint"
   }
 }
